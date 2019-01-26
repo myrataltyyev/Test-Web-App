@@ -1,0 +1,48 @@
+body {
+    font-size: 100%;
+    width: 50%;
+    margin: 80px auto;
+}
+
+fieldset {
+    margin: 10px auto;
+}
+
+legend {
+    font-style: italic;
+    font-size: 18px;
+    color: #666666;
+    padding: 5px;
+}
+
+input {
+    border: 1px solid #666666;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px 0px;
+    resize: vertical;
+}
+
+#search_field {
+    width: 90%;
+    margin-right: 12px;
+}
+
+#search_btn {
+    border-radius: 60%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#list_of_medicines {
+    padding: 25px;
+    border: 2px solid grey;
+    overflow: auto;
+}
+
+
+
+
+

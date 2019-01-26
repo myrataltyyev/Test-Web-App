@@ -1,0 +1,67 @@
+body {
+    font-size: 100%;
+    width: 50%;
+    margin: 100px auto;
+}
+
+legend {
+    font-style: italic;
+    color: #666666;
+    padding: 10px;
+}
+
+input:not([type="radio"]) {
+    border: 1px solid #666666;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 8px;
+    margin: 5px 0px;
+    width: 95%;
+    resize: vertical;
+}
+
+.radiobutton {
+    font-size: 12pt;
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#drugstore {
+    float: left;
+    cursor: pointer;
+}
+
+#hospital {
+    float: right;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+button {
+    width: 98%;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#register_btn {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+

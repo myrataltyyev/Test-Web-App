@@ -1,0 +1,53 @@
+body {
+    font-size: 100%;
+    width: 50%;
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    font-size: 22px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+td, th {
+    padding: 5px;
+}
+
+td {
+    padding-left: 20px;
+}
+
+fieldset {
+    margin: 40px auto;
+}
+
+legend {
+    font-style: italic;
+    font-size: 18px;
+    color: #666666;
+}
+
+#list_of_medicines {
+    padding: 20px;
+    overflow: auto;
+}
+
+#patient_medicines {
+    padding: 20px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
