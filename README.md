@@ -1,4 +1,4 @@
-# test-web-app
+# Test-Web-App
 Web app with simple interface. Mainly worked on backend.
 
 ## Getting Started
