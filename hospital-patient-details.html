@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="css/hospital-patient-details.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Patient Details</h1>
+        <table>
+            <tr>
+                <th>First Name:</th>
+                <td id="first_name"></td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td id="last_name"></td>
+            </tr>
+            <tr>
+                <th>Biography:</th>
+                <td id="biography"></td>
+            </tr>
+        </table>
+        <form action="">
+            <fieldset>
+                <legend>All Drugs</legend>
+                <div id="list_of_medicines"></div>
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Patient's drug list</legend>
+                <div id="patient_medicines"></div>
+            </fieldset>
+        </form>
+        <script src="javascript/hospital-patient-details.js"></script>
+    </body>
+</html>

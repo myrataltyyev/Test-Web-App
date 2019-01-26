@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Hospital. Patients Page for Doctors</title>
+     <link rel="stylesheet" href="css/hospital-patients.css" />
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    </head>
+    <body>
+    <form id="add_form" action="">
+        <fieldset>
+            <legend>Add Patient Form</legend>
+            <input type="text" id="patient_name_field" placeholder="Enter patient's full name"><br />
+            <textarea id="patient_bio" placeholder="Write here biography of patient"></textarea>
+            <button type="button" id="add_btn">
+                <img src="images/icons8-plus-26.png" width="20px" height="20px" alt="add"> Add
+            </button>
+        </fieldset>
+    </form>
+    <form id="search_form" action="">
+        <fieldset>
+            <legend>Search Form</legend>
+            <input type="text" id="search_field" placeholder="Enter patient name to search">
+            <button type="button" id="search_btn">
+                <img src="images/icons8-search-26.png" width="20px" height="20px" alt="search">
+            </button>
+        </fieldset>
+    </form>
+    <div id="list_of_patients"></div>
+    <script src="javascript/hospital-patients.js"></script>
+    </body>
+</html>
